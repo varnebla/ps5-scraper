@@ -1,0 +1,12 @@
+{
+  "name": "ps5-scraper",
+  "version": "1.0.0",
+  "description": "Scraper para conseguir una ps5 en las principales tiendas online de España",
+  "main": "index.js",
+  "author": "varnebla",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "playwright": "^1.17.1"
+  }
+}
