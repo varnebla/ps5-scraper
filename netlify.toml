@@ -1,0 +1,3 @@
+[build]
+  publish="sites"
+  functions="functions"
