@@ -7,7 +7,7 @@
   "license": "MIT",
   "private": false,
   "devDependencies": {
-    "playwright": "^1.17.1"
+    "playwright": "^1.18.0"
   },
   "dependencies": {
     "dotenv": "^10.0.0",
