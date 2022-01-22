@@ -20,4 +20,3 @@ jobs:
       env:
         # This might depend on your test-runner/language binding
         PLAYWRIGHT_TEST_BASE_URL: ${{ github.event.deployment_status.target_url }}
-        PLAYWRIGHT_BROWSERS_PATH: /usr/lib/playwright yarn add playwright-chromium@1.11.1
