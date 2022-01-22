@@ -1,9 +1,6 @@
 name: Playwright Tests
 on:
   deployment_status:
-env:
-  PLAYWRIGHT_SKIP_BROWSER_DOWNLOAD: 1
-  PLAYWRIGHT_BROWSERS_PATH: 0 
 jobs:
   test:
     timeout-minutes: 60
@@ -23,4 +20,5 @@ jobs:
       env:
         # This might depend on your test-runner/language binding
         PLAYWRIGHT_TEST_BASE_URL: ${{ github.event.deployment_status.target_url }}
-        
+        PLAYWRIGHT_SKIP_BROWSER_DOWNLOAD: 1
+        PLAYWRIGHT_BROWSERS_PATH: 0 
