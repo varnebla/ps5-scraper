@@ -1,9 +1,3 @@
 [build]
   publish="site"
   functions="functions"
-
-[context.production.environment]
-  PLAYWRIGHT_BROWSERS_PATH = "/usr/lib/playwright yarn add playwright-chromium@1.11.1"
-  PLAYWRIGHT_BROWSERS_PATH = "/usr/lib/playwright yarn add playwright-webkit@1.11.1"
-  PLAYWRIGHT_BROWSERS_PATH = "/usr/lib/playwright yarn add playwright-firefox@1.11.1"
-  PLAYWRIGHT_BROWSERS_PATH = "/usr/lib/playwright yarn test"
