@@ -42,7 +42,7 @@ const shops = [
 
 const token = process.env.BOT_TOKEN;
 exports.handler = async function (event, context) {
-  const browser = await chromium.launch({ headless: false, slowMo: 50 });
+  const browser = await chromium.launch({ headless: true });
   const bot = new Telegraf(process.env.BOT_TOKEN);
   const shopsInformation = [];
 
